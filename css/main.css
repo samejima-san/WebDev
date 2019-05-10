@@ -1,0 +1,244 @@
+
+/* Header */
+header
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+header .row
+{
+	display: flex;
+	align-items: center;
+	
+}
+
+header h1
+{
+	font-weight: 700;
+	margin: 0;
+	font-family: Arial;
+	color: black;
+}
+
+header h1 a
+{
+	color: black;
+}
+
+header h1 a:hover span
+{
+	color: #A4FFA4;
+	text-decoration: none;
+}
+
+header h1 a:hover
+{
+	color: black;
+}
+
+
+header nav
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p
+{
+	padding: 0 30px;
+	margin: 0;
+	color: black;
+	background-color: #f2f2f2;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+header a
+{
+	text-decoration: none;
+}
+
+header p:hover 
+{
+	background-color: grey;
+	top:1;
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+/*
+ssssshhhhhh
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* background */
+body
+ {
+    background: url(img/2b.jpg) no-repeat center center fixed;
+    background-size: cover;;
+}
+
+/* Jumbotron */
+
+#homejumbo
+{
+	background-color: none;
+}
+.jumbotron
+{
+	display: flex;
+	align-items: center;
+	background-image: url(img/halojumbo.jpg);
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2
+{
+	font-size: 80px;
+}
+
+.jumbotron h3
+{
+	font-size: 30px;
+}
+
+.btn.btn-primary
+{
+	color: white;
+	background-color: #828282;
+	border: 1px solid black;
+}
+
+.btn.btn-primary:hover
+{
+	background-color: #A4FFA4;
+}
+
+/*Content */
+.box 
+{
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+	max-width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+	border-radius: 3px;
+}
+
+.intro-text
+ {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box p
+{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+#space
+{
+	padding-bottom: 25px;
+}
+
+
+
+
+/*footer styles */
+footer 
+{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: none;
+}
+
+/* contact form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+}
+
+#contact
+{
+	text-align: left;
+}
+
+.carathumb
+{
+	width: 100%;
+}
+
+.carousel-inner
+{
+	width: 100%;
+	max-height: 360px;
+}
+
+.carousel-inner > .item > img
+{
+	margin: 0 auto;
+}
+	
